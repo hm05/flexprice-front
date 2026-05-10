@@ -17,7 +17,7 @@ import DateRangePicker from './DateRangePicker';
  * - `disabled` — Prevents interaction
  */
 const meta: Meta<typeof DateRangePicker> = {
-	title: 'Molecules/DateRangePicker',
+	title: 'Atoms/DateRangePicker',
 	component: DateRangePicker,
 	tags: ['autodocs'],
 	argTypes: {
