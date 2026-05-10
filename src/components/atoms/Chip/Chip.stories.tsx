@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, userEvent, within, fn } from '@storybook/test';
 import Chip from './Chip';
-import { Check, X, AlertCircle, Clock, Info } from 'lucide-react';
+import { Check, X, AlertCircle, Clock, Info as InfoIcon } from 'lucide-react';
 
 /**
  * Chip (Badge/StatusChip) component used across FlexPrice to display
@@ -84,7 +84,7 @@ export const Info: Story = {
 	args: {
 		label: 'Finalized',
 		variant: 'info',
-		icon: <Info className='size-3' />,
+		icon: <InfoIcon className='size-3' />,
 	},
 };
 
